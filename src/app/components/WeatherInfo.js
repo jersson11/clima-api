@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const WeatherInfo = props => {
     console.log(props)
    
@@ -12,7 +13,7 @@ const WeatherInfo = props => {
                 </div>
             }
             {props.temperature ?
-                <div className="card card-body mt-2 animated fadeInUp" >
+                <div className="card card-body mt-2 animated fadeInUp, diseño" >
                     {
                         props.city && props.country &&
                         <p><i className="fas fa-location-arrow"></i> Location: {props.city}, {props.country}</p>

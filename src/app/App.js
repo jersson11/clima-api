@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 import WeatherForm from './components/WeatherForm';
 import WeatherInfo from './components/WeatherInfo';
 
+
 import { WEATHER_KEY } from './keys';
 
 class App extends Component {
-    
+ 
 
     state = {
         temperature: '',
@@ -60,6 +61,7 @@ class App extends Component {
                 </div>
             </div>
         </div>
+      
     }
     
     

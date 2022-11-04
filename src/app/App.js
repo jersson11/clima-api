@@ -6,6 +6,7 @@ import WeatherInfo from './components/WeatherInfo';
 import { WEATHER_KEY } from './keys';
 
 class App extends Component {
+    
 
     state = {
         temperature: '',
@@ -46,6 +47,7 @@ class App extends Component {
         }
 
     }
+    
 
     render() {
         return <div className="container p-4">
@@ -59,6 +61,8 @@ class App extends Component {
             </div>
         </div>
     }
+    
+    
 }
 
 

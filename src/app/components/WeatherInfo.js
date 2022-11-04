@@ -2,6 +2,7 @@ import React from 'react';
 
 const WeatherInfo = props => {
     console.log(props)
+   
     return (
         <div>
             {
@@ -37,6 +38,9 @@ const WeatherInfo = props => {
         </div>
 
     )
+    
 }
+
+
 
 export default WeatherInfo;
